@@ -1,6 +1,5 @@
 import requests
 import operator
-from helpers import *
 import csv
 
 
