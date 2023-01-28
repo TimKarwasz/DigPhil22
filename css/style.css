@@ -1,0 +1,52 @@
+/* add background image */
+body {
+  background-image: url('../img/back.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+/* lightbox background */
+#lightbox {
+/* cover fullscreen */
+position: fixed; z-index: 999;
+top: 0; left: 0;
+width: 100vw; height: 100vh;
+background: rgba(0, 0, 0, 0.5);
+/* center image */
+display: flex;
+align-items: center;
+align-items: center;
+/* hiden by default */
+visibility: hidden;
+opacity: 0;
+/* show/hide animation */
+transition: opacity ease 0.4s;
+}
+
+/* toogle visibilty */
+#lightbox.show {
+visibility: visible;
+opacity: 1;
+}
+
+/* the lightbox */
+#lightbox img {
+width: 100%;
+height: auto;
+object-fit: cover;
+}
+
+.zoomT {
+width: 600px;
+height: auto;
+cursor: pointer;
+}
+
+h1{
+text-align: center;
+stroke-linecap: 

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/style.css">
+        <title>Cook's First voyage</title>
+    </head>
+    <body>
+        <h1>Visualisation of Cook's first voyage</h1>
+        <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1MOVugqV7FeB3iT5WbolPzsAAKpRz7JBT9HG_JBH_JUY&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+        <!-- the lightbox -->
+        <div id="lightbox"></div>
+        
+        <!--the images -->
+        <figure style="float:left;">
+            <img id="geo" src="../graphs/geo_plot.png" class="zoomT">
+            <figcaption>Fig.1 - Plot of Cook's first voyage</figcaption>
+        </figure>
+        <figure style="float:right;">
+            <img id="persons" src="../graphs/persons_alive.png" class="zoomT">
+            <figcaption>Fig.2 - Graph of Cook's crew size </figcaption>
+        </figure>
+        <!--
+        <figure style="float:center;">
+            <img id="persons" src="../graphs/word_freq.png" class="zoomT">
+            <figcaption>Fig.3 - Relative word frequencies</figcaption>
+        </figure>
+        -->
+        <script src="../js/script.js"></script>
+    </body>
+</html>
