@@ -41,3 +41,21 @@ def multireplace(string, replacements, ignore_case=False):
     
     # For each match, look up the new string in the replacements, being the key the normalized old string
     return pattern.sub(lambda match: replacements[normalize_old(match.group(0))], string)
+
+
+def split_paragraphs(input_text=""):
+    NEWLINES_RE = re.compile(r"\n{2,}")  # two or more "\n" characters
+
+    no_newlines = input_text.strip("\n")  # remove leading and trailing "\n"
+    split_text = NEWLINES_RE.split(no_newlines)  # regex splitting
+
+    paragraphs = [p + "\n" for p in split_text if p.strip()]
+    # p + "\n" ensures that all lines in the paragraph end with a newline
+    # p.strip() == True if paragraph has other characters than whitespace
+
+    return paragraphs
+
+
+def intersection(a, b):
+    return list(set(a) & set(b))
+    
