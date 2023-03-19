@@ -13,11 +13,13 @@ pd.options.display.max_rows = None
 # load data from the csv file
 lats = []
 longs = []
-with open('coordinates_clean_copy.csv', 'r') as file:
+# coordinates_clean_copy
+with open('combined_data.csv', 'r', encoding="utf-8") as file:
     reader = csv.reader(file, delimiter=';')
 
     # read data
     for row in reader:
+        #print(row)
         lats.append(row[0].replace("’", "′"))
         longs.append(row[1].replace("’", "′"))
 
@@ -33,9 +35,10 @@ df = pd.DataFrame(coords,columns =['coord'])
 # convert DMS (Degree Minutes Seconds) GPS data to decimal
 # make sure that every coordinate is converted (I had to manually clean a bit and help with the conversin )
 df2 = clean_lat_long(df, 'coord', split=True)
+print(df2)
 
-# introduce colors for each point to make it more clearly in the plot
-colors = ["red"] * 289 + ["blue"] * 194
+# introduce colors for each point to make it more clearly in the plot (must be put manually as they depend on the data)
+colors = ["red"] * 224 + ["blue"] * 175
 df['colors'] = colors
 
 # draw plot

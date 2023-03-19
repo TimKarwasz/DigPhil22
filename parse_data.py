@@ -4,7 +4,7 @@ import csv
 import argparse
 
 # own modules
-from helpers import multireplace, split_paragraphs, intersection
+from helpers import multireplace, split_paragraphs, intersection, str2bool
 
 """
 # use this code to get the full text
@@ -31,10 +31,13 @@ parser.add_argument('-s','--start', type=str,help='start of parsing')
 # argument for the size of the parsing lookahead
 parser.add_argument('-l','--lookahead', type=int,help='size of the lookahead')
 
+# argument for stating it the last 6 chapters will be processed
+parser.add_argument('-lc','--last_chapters', type=str2bool, nargs='?',const=True, default=False, help='boolean, set to True if the second half of chapters of the logbook will be processed')
+
 # argument for the name of the output file (only the name without the extension (.txt))
 parser.add_argument('-o','--outputname', type=str,help='name of the output file')
 
-# Example cmd usage : python parse_geo_data.py -i cook_tim.txt -s latitude -l 14  -o out_tim
+# Example cmd usage : python parse_data.py -i cook_tim.txt -s latitude -l 14 -h False  -o out_tim
 
 # Note:
 # This script parses repetitive patterns of text, 
@@ -67,7 +70,12 @@ for paragraph in paragraphs:
 # 4. then go over all the paragraphes and find the whole sentences (with the lookahead)
 geo_results = []
 weather_results = []
-WEATHER_ADJECTIVES = ["brezzy", "cloudy", "cloud", "wind", "windy", "brezzes", "gales", "rain", "rainy", "sunshine", "snow", "snowy","hazey", "squall", "squalls", "weather"]
+WEATHER_ADJECTIVES = ["brezzy", "cloudy", "cloud", "wind", "windy", "brezzes", "gales", "rain", "rainy", 
+                      "sunshine", "snow", "snowy","hazey", "squall", "squalls", "hot", "cold", "arid", "foggy",
+                      "sunny", "scorcher", "blistering", "tropical", "brisk", "biting", "bleak", "icy", "harsh",
+                      "crisp", "cloudless", "still", "windless", "gale-force", "sultry", "gusty", "humid", "muggy"
+                      "murky", "torrential", "blizzard", "fog", "fogbound", "grey", "hurricane", "mist", "misty",
+                      "thunder", "thunderstorm", "thundercloud", "tsnunami", "typhoon"]
 for index,paragraph in zip(indices,paragraphs):
     if index: 
         paragraph = paragraph.split()
@@ -111,8 +119,12 @@ for index,paragraph in zip(indices,paragraphs):
 
             # 5. get weather data here
             if intersection(WEATHER_ADJECTIVES, paragraph):
-                #print(intersection(WEATHER_ADJECTIVES,paragraph))
-                weather_results.append(intersection(WEATHER_ADJECTIVES,paragraph))
+                # if there are matches get context
+                contexts = []
+                for match in intersection(WEATHER_ADJECTIVES, paragraph):
+                    # this line looks complex but only slices the paragraph to get the context words around the match
+                    contexts.append(paragraph[paragraph.index(match)-1:paragraph.index(match)+1])
+                weather_results.append(contexts)
             else:
                 weather_results.append(None)
     else:
@@ -139,29 +151,31 @@ for lat,longi in geo_results:
         long_formatted_results.append(multireplace(longi, replacement_dict_long))
 
 
-# this is only relevant for the last 6 chapters as some degree values go over 180 there
-new_long_results = []
-for lat,longi in zip(lat_formatted_results,long_formatted_results):
-    lst = longi.split()
-    degrees = lst[0]
-    lst.pop(0)
-    # make up for the fact that some longitude values are above 180 degrees
-    degrees = degrees.replace("°", "")
-    if int(degrees) > 180:
-        difference = int(degrees) - 180
-        real_long = 180 - difference
-        # more debugging
-        #print(f"org long : {degrees}, new long: {real_long}")
-        #print(new_degrees)
-        #print(lst)
-        # the following few lines construct the "34° 50’ W" sentence again
-        new_degrees = str(real_long) + '°'
-        new_list= [new_degrees] + lst
-        new_list = " ".join(new_list)
-        new_list = new_list.replace("W", "E")
-        longi = new_list
-    new_long_results.append(longi)
+if args.last_chapters == True:
+    # this is only relevant for the last 6 chapters as some degree values go over 180 there
+    new_long_results = []
+    for lat,longi in zip(lat_formatted_results,long_formatted_results):
+        lst = longi.split()
+        degrees = lst[0]
+        lst.pop(0)
+        # make up for the fact that some longitude values are above 180 degrees
+        degrees = degrees.replace("°", "")
+        if int(degrees) > 180:
+            difference = int(degrees) - 180
+            real_long = 180 - difference
+            # more debugging
+            #print(f"org long : {degrees}, new long: {real_long}")
+            #print(new_degrees)
+            #print(lst)
+            # the following few lines construct the "34° 50’ W" sentence again
+            new_degrees = str(real_long) + '°'
+            new_list= [new_degrees] + lst
+            new_list = " ".join(new_list)
+            new_list = new_list.replace("W", "E")
+            longi = new_list
+        new_long_results.append(longi)
 
+    long_formatted_results = new_long_results
 
 
 # 5. write the parsed data
