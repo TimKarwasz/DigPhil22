@@ -2,9 +2,12 @@
 import operator
 import csv
 import argparse
+import nltk.data
+
+tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
 
 # own modules
-from helpers import multireplace, split_paragraphs, intersection, str2bool
+from helpers import multireplace, split_paragraphs, intersection
 
 """
 # use this code to get the full text
@@ -31,13 +34,10 @@ parser.add_argument('-s','--start', type=str,help='start of parsing')
 # argument for the size of the parsing lookahead
 parser.add_argument('-l','--lookahead', type=int,help='size of the lookahead')
 
-# argument for stating it the last 6 chapters will be processed
-parser.add_argument('-lc','--last_chapters', type=str2bool, nargs='?',const=True, default=False, help='boolean, set to True if the second half of chapters of the logbook will be processed')
-
 # argument for the name of the output file (only the name without the extension (.txt))
 parser.add_argument('-o','--outputname', type=str,help='name of the output file')
 
-# Example cmd usage : python parse_data.py -i cook_tim.txt -s latitude -l 14 -h False  -o out_tim
+# Example cmd usage : python parse_data.py -i cook_tim.txt -s latitude -l 14 -o out_tim
 
 # Note:
 # This script parses repetitive patterns of text, 
@@ -70,16 +70,20 @@ for paragraph in paragraphs:
 # 4. then go over all the paragraphes and find the whole sentences (with the lookahead)
 geo_results = []
 weather_results = []
+# these were used for the first attempt of getting weather data which proved inferior to the second attempt
+"""
 WEATHER_ADJECTIVES = ["brezzy", "cloudy", "cloud", "wind", "windy", "brezzes", "gales", "rain", "rainy", 
                       "sunshine", "snow", "snowy","hazey", "squall", "squalls", "hot", "cold", "arid", "foggy",
                       "sunny", "scorcher", "blistering", "tropical", "brisk", "biting", "bleak", "icy", "harsh",
                       "crisp", "cloudless", "still", "windless", "gale-force", "sultry", "gusty", "humid", "muggy"
                       "murky", "torrential", "blizzard", "fog", "fogbound", "grey", "hurricane", "mist", "misty",
                       "thunder", "thunderstorm", "thundercloud", "tsnunami", "typhoon"]
+"""
+
 for index,paragraph in zip(indices,paragraphs):
     if index: 
-        paragraph = paragraph.split()
-        gps_text = paragraph[index-1:index + args.lookahead + 3]
+        splitted_paragraph = paragraph.split()
+        gps_text = splitted_paragraph[index-1:index + args.lookahead + 3]
         # check if lattiude and longtiude occur to get only valid gps data
         if "latitude" in gps_text and "longitude" in gps_text:
             lat_list = []
@@ -118,21 +122,29 @@ for index,paragraph in zip(indices,paragraphs):
 
 
             # 5. get weather data here
-            if intersection(WEATHER_ADJECTIVES, paragraph):
+
+            """
+            # Attempt 1: Matching weather adjectives and saving the context data (bad)
+            if intersection(WEATHER_ADJECTIVES, splitted_paragraph):
                 # if there are matches get context
                 contexts = []
-                for match in intersection(WEATHER_ADJECTIVES, paragraph):
+                for match in intersection(WEATHER_ADJECTIVES, splitted_paragraph):
                     # this line looks complex but only slices the paragraph to get the context words around the match
-                    contexts.append(paragraph[paragraph.index(match)-1:paragraph.index(match)+1])
+                    contexts.append(splitted_paragraph[splitted_paragraph.index(match)-3:splitted_paragraph.index(match)+3])
                 weather_results.append(contexts)
             else:
                 weather_results.append(None)
+            """
+
+            # Attempt 2: Getting the first sentences of each paragraph (good)
+            weather_results.append(" ".join(tokenizer.tokenize(paragraph.strip())[0:2]))
+
     else:
         pass
         
 
 
-# 4. parse the sentences as they look this right now: ('18 degrees 22 minutes south,', '34 degrees 50 minutes west.')
+# 6. parse the sentences as they look this right now: ('18 degrees 22 minutes south,', '34 degrees 50 minutes west.')
 # replace degree with °, minute with ’, seconds with ″, and the long names (north, south, ...) with N,S,E,W
 # note: I had to manually clean some entries later as they caused problems with the plotting of the data
 lat_formatted_results = []
@@ -151,14 +163,14 @@ for lat,longi in geo_results:
         long_formatted_results.append(multireplace(longi, replacement_dict_long))
 
 
-if args.last_chapters == True:
-    # this is only relevant for the last 6 chapters as some degree values go over 180 there
-    new_long_results = []
-    for lat,longi in zip(lat_formatted_results,long_formatted_results):
-        lst = longi.split()
-        degrees = lst[0]
+
+# 7. some longitude values are over 180 degrees, this bit of code accounts for that
+new_long_results = []
+for lat,longi in zip(lat_formatted_results,long_formatted_results):
+    lst = longi.split()
+    degrees = lst[0]
+    if degrees != "W" and degrees != "E":
         lst.pop(0)
-        # make up for the fact that some longitude values are above 180 degrees
         degrees = degrees.replace("°", "")
         if int(degrees) > 180:
             difference = int(degrees) - 180
@@ -178,7 +190,7 @@ if args.last_chapters == True:
     long_formatted_results = new_long_results
 
 
-# 5. write the parsed data
+# 8. write the parsed data
 # some rows were incomplete, so I had to manually complete them
 # e.g "30° 46’ N,16° 8’" here the W in the end is missing, but based on the entries before and after corrput ones
 # this can easily be fixed
@@ -188,3 +200,5 @@ with open(args.outputname + ".csv", mode='w', newline='') as csv_file:
     writer.writeheader()
     for lat,longi,weather in zip(lat_formatted_results,long_formatted_results, weather_results):
         writer.writerow({'lat': lat, 'long': longi, 'weather': weather})
+
+

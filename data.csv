@@ -1,0 +1,722 @@
+﻿Column1;Column2;Column3;Column4
+latitude;longitude;color;weather
+49.5;-5.8667;red;"friday, 26th. first part fresh breezes and cloudy, remainder little wind
+and clear."
+48.7;-6.8167;red;"saturday, 27th. first part light airs and clear weather, remainder fresh
+breezes and cloudy."
+47.2667;-9.1167;red;"sunday, 28th. former part fresh gales and hazey with rain; remainder a
+moderate breeze and cloudy."
+46.6333;-9.4833;red;"monday, 29th. light airs and hazey the most part of these 24 hours with
+some rain."
+46.15;-9.8667;red;tuesday, 30th. fresh gales all these 24 hours.
+45.05;-8.7167;red;"wednesday, 31st. first and middle parts, moderate breezes and clear;
+latter, fresh gales and cloudy."
+44.9333;-9.15;red;"thursday, september 1st. very hard gales, with some heavy showers of
+rain, the most part of these 24 hours, which brought us under our two
+courses, broke one of our main topmast phuttock plates, washed overboard
+a small boat belonging to the boatswain, and drowned between 3 and 4
+dozen of our poultry, which was worst of all."
+43.8833;-9.4333;red;friday, 2nd. fresh gales and cloudy the most part of these 24 hours.
+44.15;-10.3333;red;"saturday, 3rd. first part little wind and hazey, with rain; remainder
+strong gales with hard squalls, which brought us under our close reeft
+topsails, and obliged us to strike topgallant yards."
+40.4833;-10.1833;red;"wednesday, 7th. moderate breezes and clear weather; found the variation
+to be 21 degrees 4 minutes west."
+37.0667;-11.55;red;"friday, 9th. first part fresh gales; remainder moderate breezes and fine,
+clear weather."
+35.3333;-13.4667;red;saturday, 10th. a steady, fresh breeze and fine clear weather.
+34.0167;-14.4833;red;sunday, 11th. the same winds and weather continue.
+32.7167;-15.8833;red;monday, 12th. moderate breezes and fine clear weather.
+32.55;-17.3167;red;sunday, 18th. ditto weather.
+31.2833;-16.1333;red;tuesday, 20th. light airs and clear weather.
+30.7667;-15.8333;red;"wednesday, 21st. first part light airs, remainder fresh breezes and clear
+weather."
+28.85;-22.1667;red;friday, 23rd. light breezes and clear weather.
+14.1;-22.1667;red;friday, 30th. a steady breeze and pleasant weather.
+12.5667;-22.1667;red;saturday, october 1st. a steady gale and somewhat hazey.
+12.2333;-22.55;red;"sunday, 2nd. first part a steady breeze and pleasant weather, remainder
+light breezes and cloudy."
+11.8833;-22.0;red;monday, 3rd. cloudy weather, with light winds and calms.
+9.6667;-22.3167;red;"wednesday, 5th. light breezes of wind, sometimes clear and sometimes
+cloudy weather."
+9.7;-22.0667;red;"thursday, 6th. first part light breezes and cloudy; middle frequent heavy
+squalls, with rain, till towards noon when we had again little wind."
+8.4167;-22.2167;red;friday, 7th. variable light airs and calm all these 24 hours.
+7.8;-22.65;red;"saturday, 8th. first part, light airs and clear weather; middle, squally,
+with thunder and lightning all round; latter part, moderate breezes and
+clear weather."
+7.35;-22.5333;red;"monday, 10th. first part, light breezes and clear weather; middle,
+squally, with heavy showers of rain; latter, variable, light airs and
+calm and dark gloomy weather."
+7.0167;-22.5;red;"wednesday, 12th. much the same weather as yesterday the first part, the
+remainder mostly calm and cloudy weather."
+6.6333;-23.75;red;thursday, 13th. light airs of wind, with some heavy showers of rain.
+5.6333;-23.7833;red;"friday, 14th. dark, gloomy weather, with much rain, the wind variable
+from west-south-west to south-south-east, sometimes on one tack and
+sometimes on the other."
+5.2833;-24.3833;red;"sunday, 16th. first part calm, the remainder gentle breezes and fine,
+pleasant weather."
+4.7833;-28.2;red;monday, 17th. variable, light airs and calm clear weather.
+1.6667;-28.2;red;"tuesday, 18th. sometimes little wind, sometimes squally, with rain and
+lightning."
+1.6667;-28.8333;red;saturday, 22nd. moderate breezes and fine, pleasant weather.
+1.1167;-30.3;red;sunday, 23rd. a moderate, steady breeze and fine clear weather.
+-1.35;-31.1167;red;"monday, 24th. first part ditto weather; remainder fresh breezes and
+cloudy, with some flying showers of rain."
+-2.3833;-32.0;red;"wednesday, 26th. first part light airs and cloudy weather, the remainder
+a moderate breeze and cloudy."
+-5.4167;-33.1167;red;thursday, 27th. fresh gales and close cloudy weather.
+-14.85;-33.6167;red;saturday, 29th. fresh breezes and pleasant weather.
+-16.8167;-34.8333;red;thursday, 3rd. a fresh trade wind and fair weather.
+-18.3667;-35.8333;red;friday, 4th. a steady gale and fair weather.
+-19.05;-36.8333;red;saturday, 5th. fine pleasant weather.
+-19.7667;-37.5833;red;"sunday, 6th. first and latter part squally, with heavy showers of rain;
+middle moderate and fair."
+-21.2667;-42.25;red;monday, 7th. moderate breezes and clear weather.
+-22.8333;-42.4833;red;tuesday, 8th. fresh breezes and cloudy weather.
+-24.2833;-42.2667;red;"the city of rio de janeiro is in the latitude of 22 degrees 50 minutes
+south and longitude 42 degrees 15 minutes west from greenwich. * (* modern
+determination, 22 degrees 54 minutes south, 43 degrees 10 minutes west.)"
+-24.7667;-41.2;red;"thursday, december 8th. fore and middle parts moderate breezes and
+cloudy; remainder, little wind and clear weather."
+-25.5667;-41.1333;red;friday, 9th. genteel light breezes and clear weather.
+-25.7167;-42.1;red;"saturday, 10th. moderate breezes with some flying showers of rain the
+first part."
+-28.0;-41.9167;red;sunday, 11th. little wind and clear weather the most part of this day.
+-29.4;-41.65;red;"tuesday, 13th. first part gentle breezes and clear, remainder a steady
+gale."
+-30.1333;-42.5333;red;"wednesday, 14th. first and latter parts, fresh breezes and cloudy;
+middle, little wind, with thunder, lightning and rain."
+-31.35;-42.8;red;"thursday, 15th. the first part a fresh gale and dark cloudy weather;
+remainder, little wind and clear; a large swell from south-west."
+-32.25;-43.45;red;friday, 16th. genteel breezes and clear weather.
+-32.7;-49.0167;red;"saturday, 17th. hazey with frequent showers of rain all the fore and
+middle part; latter, clear weather with a gentle breeze of wind."
+-37.1333;-49.5333;red;"sunday, 18th. first part, light winds; remainder, fresh breezes and clear
+weather."
+-36.7667;-50.5333;red;thursday, 22nd. little wind the most part of this day.
+-37.1833;-52.0833;red;friday, 23rd. light airs and clear weather.
+-38.6167;-56.25;red;"saturday, 24th. first part calm; remainder a genteel breeze and fine
+clear weather."
+-41.6333;-58.4833;red;sunday, 25th. fresh breezes and fine clear weather.
+-40.8167;-59.6167;red;"tuesday, 27th. fresh breezes and hazey with squalls which obliged us
+during the night to take in the small sails and 2 reefs in the topsails
+which were let out in the morning."
+-41.75;-60.25;red;"wednesday, 28th. first part strong gales and cloudy, which obliged us to
+get down top-gallant yards."
+-42.5333;-60.4333;red;"thursday, 29th. first part moderate breezes and cloudy; remainder fresh
+breezes and clear."
+-43.2333;-61.1333;red;"friday, 30th. little wind, and sometimes calm; the first part clear
+weather, remainder foggy and hazey."
+-43.5833;-61.1167;red;"saturday, 31st. cloudy weather, with some lightning and a few showers of
+rain."
+-45.2833;-61.4833;red;"sunday, january 1st, 1769. first and latter part, fresh breezes and clear
+weather; in the middle, light airs and calm. at noon, longitude in per 4
+sets of observations between the sun and moon 61 degrees 8 minutes 28
+seconds west."
+-47.2833;-61.0;red;"monday, january 2nd. the first part of this day a genteel gale and clear
+weather; middle, squally, with lightning and rain, and some showers of
+large hail stones; towards noon a steady fresh breeze and clear weather."
+-49.8167;-62.3167;red;"tuesday, 3rd. fresh gales and clear weather; under single reef topsails."
+-51.3333;-61.9833;red;"thursday, 5th. fore part, fresh gales and clear; middle, light airs;
+remainder, fresh gales and a little hazey."
+-51.4333;-62.8333;red;"friday, 6th. fresh gales, the air very sharp and cold; frequent showers
+of rain and squalls."
+-51.2667;-63.1667;red;"saturday, 7th. first part, strong gales, with excessive hard squals, with
+rain."
+-52.9;-64.5833;red;"sunday, 8th. wind and weather both variable, but for the most part little
+wind."
+-54.3333;-68.45;red;tuesday, 10th. moderate breezes and fine clear weather.
+-57.0333;-68.7833;red;wednesday, 11th. a steady genteel breeze and clear weather.
+-56.6333;-72.8;red;"on the south-west side of the cape of good success (which forms the
+south-west entrance of strait le mair, and is known by some rocks off it)
+lies valentine's bay, the entrance of which we only saw. from this bay
+the land trends to the west-south-west; for 20 or 30 leagues it appears
+high and mountainous, and forms several bays and inlets south-west 1/2
+south 14 leagues from the cape of good success, and 2 or 3 leagues from
+the shore lies new island; it is 2 leagues in length, north-east and
+south-west, the north-east end is terminated by a remarkable hillock."
+-59.0;-78.7;red;thursday, 26th. fresh gales and thick hazey weather, with small rain.
+-58.7667;-80.9667;red;"friday, 27th. first part, moderate breezes and thick hazey weather; the
+middle, fair and cloudy; and the latter, fresh gales with some rain."
+-58.5;-81.9167;red;"saturday, 28th. fresh gales the most part of this day; first and middle
+parts cloudy; latter, clear with a sharp cold air."
+-58.55;-82.2667;red;"sunday, 29th. first and latter parts, fresh gales and squally, with
+flying showers of rain and hail; the middle, strong gales with heavy
+squalls and showers of rain."
+-57.75;-82.2667;red;"wednesday, february 1st. first part, fresh gales; latter, light airs and
+cloudy; p.m. found the variation by several azimuth to be 24 degrees 53
+minutes east."
+-56.7667;-82.3833;red;"thursday, 2nd. first part, light breezes and cloudy; remainder, sometimes
+a fresh breeze and at other times little wind and hazey, rainy, cold
+weather."
+-55.3333;-82.9;red;"friday, 3rd. calm and light airs, and for the most part cloudy and
+sometimes drizling rain."
+-54.6667;-83.3167;red;"saturday, 4th. fore and middle parts, little wind and dark cloudy
+weather; latter, fresh gales and cloudy with some rain."
+-53.6;-86.2833;red;"sunday, 5th. fresh gales with heavy squalls the first part; remainder,
+little wind and cloudy."
+-52.3667;-86.6167;red;"monday, 6th. a moderate breeze of wind with some flying showers of hail
+and rain; close upon a wind all this day."
+-51.2667;-87.4;red;"tuesday, 7th. a fresh breeze and dark cloudy weather, with some showers
+of rain; the wind, varying from west to north by west, obliged us to tack
+several times."
+-50.9167;-89.6;red;"wednesday, 8th. first part, cloudy with squalls of wind and showers of
+rain and hail; latter part thick hazey weather, with frequent showers."
+-49.6833;-90.6167;red;"thursday, 9th. fresh gales all this day, sometimes squally with rain;
+under double-reef topsails in the night, and single-reeft topsail in the
+day."
+-49.5833;-91.2;red;"friday, 10th. the former part of this day had fresh breezes and dark
+cloudy weather; in the night hard squalls with rain, and afterwards hazy,
+rainy weather."
+-49.1;-92.0833;red;"saturday, 11th. former part light airs with drizling rain; remainder, a
+moderate breeze and cloudy."
+-48.45;-94.4167;red;"sunday, 12th. first and middle parts, fresh gales and cloudy; latter,
+little wind and clear."
+-48.0;-97.2833;red;"monday, 13th. the first part of these 24 hours, moderate breezes and
+cloudy; remainder, fresh gales and cloudy."
+-46.8;-99.1167;red;"from the foregoing observations it will appear that we are now advanced
+about 12 degrees to the westward of the strait of magellan, and 3 1/2
+degrees to the northward of it, having been 33* (* n.b. 23 days only from
+success bay.)"
+-44.8333;-100.35;red;"tuesday, 14th. the first part, fresh gales and hazey with rain; the
+remainder moderate and cloudy, with frequent rain."
+-43.35;-101.5667;red;wednesday, 15th. little wind and cloudy the most part of this day.
+-43.7667;-103.9;red;"thursday, 16th. the first part of this day had fresh gales and cloudy; in
+the night thick hazey weather with heavy squalls of wind and rain, which
+obliged us to close-reef our topsails."
+-44.65;-106.0167;red;friday, 17th. strong gales and cloudy the most part of this day.
+-44.7667;-105.8667;red;saturday, 18th. fresh gales all this day.
+-44.5833;-109.0;red;"sunday, 19th. first part, fresh gales and hazey; the middle part, hazey,
+with drizling rain; the latter, gentle breezes and fine clear weather,
+yet the air is still cold."
+-42.3833;-109.8667;red;"monday, 20th. moderate breezes and fine weather the greater part of this
+day, and the sea very smooth."
+-41.0667;-111.7167;red;tuesday, 21st. fresh breezes and pretty clear weather.
+-38.7333;-112.0833;red;wednesday, 22nd. hazey, rainy weather the most part of this day.
+-37.2667;-111.5667;red;"thursday, 23rd. little wind and calm, and some lightning, a thing we have
+not seen for some time past, and therefore suppose not common in these
+seas in high latitudes."
+-36.8167;-112.8333;red;"saturday, 25th. first and middle parts, fresh gales and cloudy, with some
+rain; the latter, little wind and cloudy."
+-36.2;-114.15;red;"sunday, 26th. first part, calm and light airs; remainder, very strong
+gales and squally, with showers of rain, which at length brought us under
+our two courses, and close-reefed maintopsail."
+-36.35;-114.5;red;"wednesday, march 1st. first part fresh breezes, the remainder moderate
+breezes and clear weather."
+-36.5333;-116.1333;red;"thursday, 2nd. former part, fresh gales and hazey, with much rain; the
+remainder, a strong fresh gale and pretty clear weather."
+-37.1333;-117.6833;red;"friday, 3rd. first part, moderate breezes; remainder, calm and clear
+weather."
+-37.4;-119.3;red;"saturday, 4th. first part, calm; remainder, a fine genteel breeze and
+clear weather."
+-35.7833;-120.9;red;"sunday, 5th. first and latter parts, fine clear weather; the middle,
+fresh gales and hazey, with rain."
+-34.2333;-122.5833;red;monday, 6th. moderate breezes and tolerable clear weather all this day.
+-32.9;-124.4167;red;tuesday, 7th. a moderate steady breeze and clear weather.
+-31.5667;-125.4667;red;"wednesday, 8th. the first and middle parts moderate breezes and cloudy;
+the latter part variable winds and much rain."
+-30.7667;-126.1667;red;"thursday, 9th. first part, moderate and hazey, with drizling rain; the
+remainder fresh breezes and clear weather."
+-30.2833;-126.8833;red;friday, 10th. moderate breezes and fine pleasant weather.
+-29.7167;-127.1333;red;saturday, 11th. a steady gale and fine weather.
+-29.3667;-127.4833;red;sunday, 12th. ditto weather.
+-28.5;-128.7333;red;"monday, 13th. first part a steady, fresh gale; the remainder, little wind
+and fine clear weather."
+-27.8667;-129.4667;red;tuesday, 14th. little wind and fine pleasant weather.
+-27.35;-129.4667;red;wednesday, 15th. light breezes and clear weather.
+-25.7333;-129.4667;red;thursday, 16th. light airs next to a calm and clear weather.
+-25.35;-129.8667;red;friday, 17th. little wind and fine pleasant weather.
+-25.35;-130.1333;red;"saturday, 18th. first part, little wind and cloudy; latter, fresh gales
+and hard squalls, with much rain."
+-24.7167;-129.0333;red;"sunday, 19th. first part fresh gales and squally, with rain; remainder
+more moderate and cloudy."
+-22.3833;-127.9167;red;monday, 20th. a fine breeze and pleasant weather.
+-22.1833;-127.6333;red;tuesday, 21st. first part little wind, the remainder calm.
+-21.0333;-127.8333;red;wednesday, 22nd. first part calm, in the night squally, with rain.
+-20.6333;-129.45;red;"thursday, 23rd. fresh gales and squally, with rain, the first part;
+remainder fresh gales and cloudy."
+-20.2333;-129.45;red;"friday, 24th. fresh gales and cloudy, with some rain in the forepart of
+this day."
+-19.5667;-131.35;red;"saturday, 25th. first part dark cloudy weather, with rain and a fresh
+breeze of wind; remainder fair and cloudy."
+-19.1167;-133.4667;red;monday, 27th. variable winds and weather, with frequent showers of rain.
+-19.1167;-135.55;red;tuesday, 28th. little wind and cloudy.
+-19.0;-137.4833;red;wednesday, 29th. little winds and cloudy weather.
+-18.7667;-139.4667;red;"thursday, 30th. first part, calm and close cloudy weather; in the night
+had variable winds and weather, with rain."
+-18.7833;-139.8;red;friday, 31st. a steady breeze and fine pleasant weather.
+-18.5833;-141.2;red;saturday, april 1st. a steady fresh trade and fine weather.
+-18.3833;-142.7;red;sunday, 2nd. a fresh trade wind and fine pleasant weather.
+-18.2;-145.2667;red;"monday, 3rd. first and latter parts a steady fresh breeze and cloudy; the
+middle, sometimes squally with rain, at other times little wind."
+-17.7167;-145.9;red;tuesday, 4th. a steady fresh trade and clear weather.
+-17.3833;-148.1667;red;wednesday, 5th. a fresh steady gale and fine weather.
+-17.8;-148.65;red;thursday, 6th. a fresh trade and fine pleasant weather.
+-17.6333;-148.9667;red;friday, 7th. fresh gales and cloudy.
+-17.6333;-150.8667;red;"saturday, 8th. fresh trade and pleasant weather, but about noon had a few
+flying showers of rain."
+-16.7167;-151.45;red;sunday, 9th. a steady fresh gale and pleasant weather.
+-16.7667;-151.75;red;"monday, 10th. p.m. moderate breezes and cloudy; in the night, dark,
+cloudy, unsettled weather, with very much thunder, lightning, and rain."
+-18.9833;-151.6;red;"tuesday, 11th. first part, little wind and cloudy; the remainder, little
+wind and very variable; unsettled weather, with some rain."
+-20.25;-151.15;red;"wednesday, 12th. variable, light airs all these 24 hours, and hot sultry
+weather."
+-21.7833;-150.9167;red;"this island is called by the natives otaheite, and was first discovered
+by captain wallis, in his majesty's ship dolphin, on june 19th, 1767, and
+to the credit of him and his officers, the longitude of royal bay was by
+them settled to within half a degree of the truth, and the whole figure
+of the island not ill described. it is situated between the latitude of
+17 degrees 29 minutes and 17 degrees 53 minutes south, and between the
+longitude of 149 degrees 10 minutes and 149 degrees 39 minutes west from
+the meridian of greenwich."
+-22.4333;-150.7833;red;wednesday, 19th. p.m. variable light airs and clear weather.
+-22.45;-150.6167;red;"they are situated between the latitude of 16 degrees 10 minutes and 16
+degrees 55 minutes south and between the longitude 151 degrees 00 minutes
+and 151 degrees 42 minutes west from the meridian of greenwich. ulietea
+and otaha lay close to each other, and are both inclosed within a reef of
+coral rocks; and altho' the distance between the one and the other is
+near 2 miles, yet there is no passage for shipping."
+-24.0167;-150.3167;red;"thursday, august 10th. p.m., light airs and calm, remainder fresh breezes
+and cloudy."
+-25.0;-149.1;red;friday, 11th. fresh breezes and clear weather.
+-27.6667;-148.4167;red;saturday, 12th. gentle breezes and fair weather.
+-28.4;-148.3667;red;sunday, 13th. moderate breezes and clear weather.
+-29.7333;-148.0;red;monday, 14th. fresh breezes and fair weather.
+-31.05;-147.4833;red;"this island is situated in the latitude of 22 degrees 27 minutes south,
+and in the longitude of 150 degrees 47 minutes west from the meridian of
+greenwich. * (* latitude is correct."
+-31.1;-147.1667;red;"the farthest island to the southward that tupia hath been at, or knows
+anything of, lies but 2 days' sail from ohetiroa, and is called moutou,*
+(* tubuai.) but he says that his father once told him that there was
+islands to the southward of it; but we cannot find that he either knows
+or ever heard of a continent or large track of land."
+-32.7333;-147.5333;red;"wednesday, 16th. fresh breezes and cloudy the first part; in the night,
+squally, with rain; remainder, moderate and fair weather."
+-32.4333;-147.5;red;"saturday, 19th. little wind with much rain in the night, the south-west
+swell still continues, from which i conclude that there is no land near
+us in that quarter."
+-32.65;-147.4167;red;sunday, 20th. little wind all this day.
+-33.5667;-147.4167;red;monday, 21st. fresh gales and hazey weather.
+-35.5667;-147.35;red;"tuesday, 22nd. first part strong gales with much rain, thunder, and
+lightning; remainder moderate and fair weather."
+-37.0;-147.1;red;wednesday, 23rd. little wind for the most part, and pretty clear weather.
+-38.3333;-147.0;red;"thursday, 24th. the first part light airs and calm; middle, moderate
+breezes and cloudy; latter part very squally with rain."
+-39.4667;-146.4833;red;"friday, 25th. the first and middle part strong gales and squally with
+rain, remainder moderate and cloudy."
+-40.2;-145.65;red;saturday, 26th. moderate and cloudy weather, a swell from the south-west.
+-38.9;-145.5333;red;"sunday, 27th. first part little wind and cloudy; latter part, fresh gales
+and clear weather."
+-38.4833;-146.0333;red;monday, 28th. fresh gales and cloudy, with rain on the latter part.
+-37.8667;-147.8167;red;"tuesday, 29th. fore and middle parts fresh gales and dark, hazey weather
+with some rain."
+-37.8667;-149.2;red;wednesday, 30th. fresh breeze and fair weather.
+-36.3167;-150.7667;red;thursday, 31st. the first part a fresh breeze and cloudy.
+-35.3167;-152.0;red;"friday, september 1st. very strong gales and heavy squalls with rain; at
+6 p.m. brought too under the main sail."
+-34.25;-152.7333;red;"sunday, 3rd. the fore and middle parts fresh gales, with hard squalls;
+latter more moderate."
+-33.2;-153.9;red;"monday, 4th. first and latter parts, little wind and cloudy; in the night
+calm."
+-32.0833;-156.5667;red;tuesday, 5th. fresh breezes and cloudy weather.
+-32.6;-158.2667;red;thursday, 7th. fresh gales and hard squalls, with rain.
+-31.75;-159.1;red;"saturday, 9th. moderate breezes and dark, cloudy weather, sometimes
+hazey, with drizling rain."
+-31.2333;-159.5333;red;sunday, 10th. fresh breezes and cloudy.
+-29.0;-159.4167;red;"monday, 11th. fresh breezes, and for the most part thick, hazey weather,
+with rain."
+-29.0;-159.7833;red;"tuesday, 12th. fresh breezes and cloudy; a swell from the
+south-south-west."
+-29.3333;-160.7;red;thursday, 14th. gentle breezes, and sometimes calm.
+-30.0;-161.5833;red;"friday, 15th. first part, moderate and cloudy, remainder strong gales and
+squally."
+-31.1167;-162.7333;red;"saturday, 16th. first part very strong gales and squally; remainder more
+moderate, with a large swell from the southward."
+-31.9833;-162.85;red;sunday, 17th. fresh gales and cloudy.
+-33.3;-165.1667;red;monday, 18th. moderate gales and cloudy, with a swell from the southward.
+-34.5;-167.2333;red;"tuesday, 19th. variable; light airs and calm."
+-36.15;-168.1667;red;wednesday, 20th. light airs and calm.
+-37.55;-169.0833;red;thursday, 21st. most part gentle breezes and clear weather.
+-38.9833;-170.2333;red;friday, 22nd. fresh breezes and cloudy.
+-38.5;-172.3333;red;saturday, 23rd. gentle breezes and cloudy weather.
+-38.4333;-175.0;red;sunday, 24th. moderate breezes and cloudy.
+-37.7167;-176.05;red;monday, 25th. ditto weather.
+-38.3833;-177.0333;red;tuesday, 26th. fresh breezes and fair weather.
+-39.1833;179.6;red;"wednesday, 27th. very strong gales and hazey, with rain the first and
+middle part; latter, moderate and clear weather."
+-39.1167;178.4;red;"thursday, 28th. first and middle parts, fresh gales and cloudy; latter
+part, very strong gales and squally."
+-39.7167;178.9167;red;"friday, 29th. the first part strong gales and squally; remainder a fresh
+breeze and settled weather."
+-40.5667;179.0;red;saturday, 30th. moderate breezes and settled weather.
+-37.7;177.1167;red;wednesday, 4th. gentle breezes and cloudy weather.
+-37.9833;176.0667;red;thursday, 5th. light, gentle breezes and clear weather.
+-36.7833;175.4167;red;friday, 6th. little wind, and fine pleasant weather.
+-35.1667;174.8333;red;"wednesday, 11th. in the p.m., as i intended to sail in the morning, we
+put the 3 youths ashore, seemingly very much against their inclination;
+but whether this was owing to a desire they had to remain with us, or the
+fear of falling into the hands of their enemies, as they pretended, i
+know not."
+-34.85;177.75;red;"thursday, 12th. gentle breezes at north-west and north, with frequent
+calms."
+-34.1667;174.9167;red;"sunday, 15th. p.m. stood over for the southermost land or south point of
+the bay, having a light breeze at north-east, our soundings from 12 to 8
+fathoms."
+-34.3667;173.75;red;"tuesday, 17th. p.m. winds at west, a fresh breeze; in the night, variable
+light airs and calm; a.m. a gentle breeze between the north-west and
+north-east."
+-34.1667;172.3333;red;"tuesday, 31st. at half-past one p.m. hauled round the island above
+mentioned, which lies east 1 mile from the north-east point of the land."
+-35.1667;172.4833;red;"thursday, 2nd. gentle breezes from north-west round northerly to
+east-south-east and fair weather."
+-35.3167;172.45;red;"mercury bay* (* at the head of mercury bay is a small settlement called
+whitianga.) lies in the latitude of 36 degrees 47 minutes south, and the
+longitude of 184 degrees 4 minutes west, from the meridian of greenwich."
+-34.8333;173.3;red;monday, 27th. p.m., gentle breezes easterly, and clear weather.
+-34.5;175.25;red;"sunday, 10th. had the winds from the western board all this day, a gentle
+breeze and clear weather."
+-39.2667;176.65;red;"friday, 15th. fresh gales at south-west, and for the most part clear
+weather with a large swell from the westward."
+-40.45;176.75;red;tuesday, 19th. the wind still continues at west.
+-41.0;177.9667;red;monday, 25th. a gentle breeze at south-east, the weather a little hazey.
+-41.5667;176.7833;red;"tuesday, 26th. moderate breezes, easterly and hazey weather; standing to
+the southward close upon a wind."
+-41.7;174.5;red;wednesday, 27th. winds at east.
+-47.7167;172.0;red;saturday, 13th. winds variable.
+-47.2;168.2;blue;"thursday, 8th. in the p.m. had a fresh breeze at north-north-east and
+cloudy weather."
+-47.4333;168.8167;blue;"saturday, 17th. p.m. stood to the southward for the land above mention'd,
+with the wind at north, a fresh breeze and clear weather."
+-47.3167;167.8333;blue;"tuesday, 20th. all p.m. had little wind, which veer'd round from south by
+east to north-north-east."
+-47.6667;175.1;blue;"wednesday, 28th. strong gale at south-west, with a large sea from the
+same quarter."
+-44.0833;179.0;blue;"thursday, march 1st. winds between the south-west and north-north-west, a
+fresh gale."
+-40.5;175.9667;blue;"sunday, 1st april. in the p.m. had a moderate breeze at east, which in
+the night veer'd to the north-east, and was attended with hazey, rainy
+weather."
+-37.3833;164.7333;blue;"saturday, 7th. gentle breezes at north-east, which in the a.m. veer'd to
+north-west."
+-39.3833;156.0333;blue;"friday, 13th. light airs next to a calm, with clear pleasant weather;
+what little wind we had was from the north-west quarter."
+-37.9667;150.65;blue;"wednesday, 18th. winds southerly, a hard gale, with heavy squalls,
+attended with showers of rain and a great sea from the same quarter."
+-37.4667;150.05;blue;"thursday, 19th. in the p.m. had fresh gales at south-south-west and
+cloudy squally weather, with a large southerly sea; at 6 took in the
+topsails, and at 1 a.m. brought too and sounded, but had no ground with
+130 fathoms of line."
+-35.1667;152.85;blue;"friday, 20th. in the p.m. and most part of the night had a fresh gale
+westerly, with squalls, attended with showers of rain."
+-34.3667;152.6;blue;"tuesday, 24th. in the p.m. had variable light airs and calms until 6
+o'clock, at which time a breeze sprung up at north by west; at this time
+we had 70 fathoms water, being about 4 or 5 leagues from the land, the
+pidgeon house bearing north 40 degrees west, mount dromedary south 30
+degrees west, and the northermost land in sight north 19 degrees east."
+-34.1667;152.45;blue;"wednesday, 25th. in the p.m. had a fresh breeze at north-west until 3
+o'clock, at which time it came to west, and we tack'd and stood to the
+northward."
+-34.0;152.6167;blue;thursday, 26th. clear, serene weather.
+-32.8833;152.0;blue;"sunday, 6th. in the evening the yawl return'd from fishing, having caught
+2 sting rays weighing near 600 pounds."
+-30.7167;154.75;blue;"thursday, 10th. in the p.m., had the wind at north-east by north, with
+which we stood in shore until near 4 o'clock, when we tack'd in 23
+fathoms water, being about a mile from the land, and as much to the
+southward of cape 3 points."
+-25.5667;154.75;blue;"sunday, 13th. in the p.m. stood in shore with the wind at north-east
+until 6, at which time we tack'd, being about 3 or 4 miles from the land,
+and in 24 fathoms."
+-23.1167;18.0;blue;"friday, 18th. in steering along shore at the distance of 2 leagues off
+our soundings was from 24 to 32 fathoms sandy bottom."
+-22.8833;0.3333;blue;"saturday, 26th. in the p.m. light breezes at east-south-east, with which
+we stood to the north-west until 4 o'clock, when it fell calm, and soon
+after we anchored in 12 fathoms."
+-22.0833;150.4;blue;"sunday, 27th. we had not stood on to the northward quite an hour before
+we fell into 3 fathoms, upon which i anchor'd, and sent away the master
+with 2 boats to sound the channell, which lay to leeward of us between
+the northermost island and the main land, which appear'd to me to be
+pretty broad; but i suspected that it was shoal, and so it was found, for
+the master reported to me upon his return that he found in many places
+only 2 1/2 fathoms, and where we lay at anchor we had only 16 feet, which
+was not 2 feet more than the ship drew."
+-21.4833;59.0;blue;"wednesday, 30th. in the p.m. i went again in search of fresh water, but
+had no better success than before; wherefore i gave over all thoughts of
+laying the ship a shore, being resolved to spend as little time as
+possible in a place that was likely to afford us no sort of refreshment."
+-20.9333;16.0;blue;"friday, june 1st. at 1/2 an hour after noon, upon the boat we had ahead
+sounding making the signal for shoal water, we hauld our wind to the
+north-east, having at that time 7 fathoms; the next cast 5, and then 3,
+upon which we let go an anchor, and brought the ship up."
+-19.0167;1.5;blue;"saturday, 2nd. winds at south-south-east and south-east, a gentle breeze,
+with which we stood to the north-west and north-west by north, as the
+land lay, under an easey sail."
+-13.0333;144.0;blue;"wednesday, 6th. light airs at east-south-east, with which we steer'd
+west-north-west as the land now lay; depth of water 12 and 14 fathoms."
+-12.6333;144.75;blue;wednesday, 15th. fresh trade at south-east and clear weather.
+-12.0;143.4167;blue;"in the p.m., as the wind would not permit us to sail out by the same
+channel as we came in, neither did i care to move until the pinnace was
+in better repair, i sent the master with all the other boats to the reef
+to get such refreshments as he could find, and in the meantime the
+carpenters were repairing the pinnace. variations by the amplitude and
+azimuth in the morning 4 degrees 9 minutes easterly; at noon latitude
+observed 12 degrees 38 minutes south, longitude in 216 degrees 45 minutes
+west."
+-11.3833;143.7667;blue;sunday, 19th. gentle breezes at south-east by east and clear wether.
+-10.55;141.3667;blue;monday, 20th. fresh breezes at east-south-east.
+-10.45;142.6;blue;"thursday, 23rd. in the p.m. had little wind and variable, with which and
+the tide of flood we keept advancing to the west-north-west; depth of
+water 8, 7, and 5 fathoms."
+-10.3;141.65;blue;"the north-east entrance of this passage or strait lies in the latitude of
+10 degrees 27 minutes south, and in the longitude of 218 degrees 36
+minutes west from the meridian of greenwich. * (* as before mentioned,
+this longitude is over a degree in error."
+-10.1667;140.2;blue;saturday, 25th. winds at north-east and east-north-east, a gentle breeze.
+-9.9333;139.0;blue;sunday, 26th. fresh breezes at east in standing to the north-west.
+-8.2167;139.4167;blue;"monday, 27th. fresh breezes between the east by north and
+east-south-east, with which we steer'd west until sun set; depth of water
+from 27 to 23 fathoms."
+-8.6333;138.5667;blue;"wednesday, 29th. continued standing to the northward, with a fresh gale
+at east by south and south-east until 6 o'clock, having very irregular
+and uncertain soundings from 24 to 7 fathoms."
+-8.4;138.9167;blue;"thursday, 30th. fresh breezes at south-east, east-south-east, and east by
+south."
+-7.65;138.7;blue;"friday, 31st. between 12 and 1 in the p.m. steer'd north-north-west, in
+which time we shoalded our water from 8 to 5 1/2, which i thought was
+little enough, and therefore keept away again west, and soon depen'd it
+to 7 fathoms, which depth we keept until 6, having the land just in sight
+from the deck."
+-7.2333;138.5;blue;"saturday, 1st september. in the p.m. and most part of the night had a
+fresh breeze from the south-east with which we keept standing in for the
+land north-east and east-north-east, close upon a wind, until half past
+6, when we anchor'd in 4 1/2 fathoms, soft muddy bottom, as we have every
+were found upon the coast."
+-6.7333;137.85;blue;"sunday, 2nd. in the p.m. had calm until 2, when a light breeze sprung up
+at north by east, and we stood in for the land east by north until 5, at
+which time we got the wind from the south-west, a light breeze, with
+which we steer'd north-east, edging in for the land, having it in sight
+from the deck, and which i judged to be about 3 or 4 leagues off, being
+very low land."
+-7.4167;135.6833;blue;"tuesday, 4th. stood to the westward all this day, having at first a
+moderate breeze southerly, which afterwards freshned and veered to
+south-east and east-south-east."
+-8.25;133.7833;blue;"wednesday, 5th. winds at east by south and south-east by east, a fresh
+gale and clear weather, with which were run 118 miles upon a south 69
+degrees 15 minutes west course, which at noon brought us into the
+latitude of 7 degrees 25 minutes south, longitude 225 degrees 41 minutes
+west; depth of water 28 fathoms, having been in soundings the whole of
+this day's run, generally between 10 and 20 fathoms."
+-9.5;131.5667;blue;"thursday, 6th. a steady fresh gale at east by south and clear weather,
+with which we steer'd west-south-west."
+-9.6;129.2833;blue;"friday, 7th. as i was not able to satisfy myself from any chart what land
+it was we saw to leeward of us, and fearing it might trend away more
+southerly, and the weather being hazey so that we could not see far, we
+steer'd south-west, which course by 4 o'clock run us out of sight of the
+land; by this i was assured that no part of it lay to the southward of 8
+degrees 15 minutes south."
+-9.7667;128.1167;blue;saturday, 8th. winds easterly, with a high sea from the same quarter.
+-8.25;132.1667;blue;sunday, 9th. light airs and clear weather the most part of this 24 hours.
+-10.65;125.95;blue;tuesday, 11th. variable light airs and clear weather.
+-10.5833;123.5;blue;"sunday, 16th. light breezes from the north-east by east, with clear
+weather, except in the morning, when we had it cloudy, with a few small
+showers of rain."
+-10.7833;122.4667;blue;"before we proceed any further it will be proper in this place to say
+something of the island we have been last at, which is called by the
+natives savu. the middle of it lies in about the latitude of 10 degrees
+35 minutes south, longitude 237 degrees 30 minutes west."
+-11.1667;120.8;blue;"saturday, 22nd. winds at south-south-east, south-east, and east; a gentle
+breeze, which we steer'd west-south-west by compass."
+-11.1333;118.2167;blue;"sunday, 23rd. winds easterly; a moderate breeze, which by noon brought us
+into the latitude of 11 degrees 10 minutes south, longitude 240 degrees
+48 minutes west."
+-11.2167;116.0;blue;"monday, 24th. winds at east and south-east; a moderate breeze, and fine,
+pleasant weather."
+-11.1667;115.0;blue;"tuesday, 25th. moderate breezes at south-east, and clear, pleasant
+weather."
+-10.85;110.0;blue;wednesday, 26th. winds and weather as yesterday.
+-9.5167;109.6667;blue;"friday 28th. winds at south-south-east and south-east; a fresh breeze and
+cloudy, with some showers of rain."
+-7.5667;108.3833;blue;"saturday, 29th. moderate breeze at south-east and clear pleasant weather,
+steer'd north-west all this day, in order to make the land of java."
+-7.5333;105.5833;blue;"""please to acquaint my lords commissioners of the admiralty that i left
+rio de janeiro the 8th of december, 1768, and on the 16th of january
+following arrived in success bay in straits la maire, where we recruited
+our wood and water; on the 21st of the same month we quitted straits la
+maire, and arrived at george's island on the 13th of april. in our
+passage to this island i made a far more westerly track than any ship had
+ever done before; yet it was attended with no discovery until we arrived
+within the tropick, where we discovered several islands."
+-7.9167;105.9;blue;"""i send herewith a copy of my journal, containing the proceedings of the
+whole voyage, together with such charts as i have had time to copy, which
+i judge will be sufficient for the present to illustrate said journal. in
+this journal i have with undisguised truth and without gloss inserted the
+whole transactions of the voyage, and made such remarks and have given
+such discriptions of things as i thought was necessary in the best manner
+i was capable off."
+-8.8;105.85;blue;"thursday, 17th. little wind and fair at 6 p.m. java head bore
+east-north-east, distant 4 or 5 leagues; at 6 a.m. it bore
+north-north-east, 12 leagues."
+-9.2333;104.25;blue;friday, 18th. light airs and calms, with showers of rain.
+-9.7667;103.0833;blue;"saturday, 19th. for the most part of these 24 hours had little wind and
+fair weather."
+-9.4833;103.1333;blue;sunday, 20th. light airs and calms, with some showers of rain.
+-9.5;104.8333;blue;"monday, 21st. first part little wind, the remainder a gentle breeze; the
+2 sail in sight."
+-9.5667;104.8333;blue;tuesday, 22nd. little wind and fair weather.
+-9.7333;104.7333;blue;"wednesday, 23rd. ditto weather; a swell from the southward, and which we
+have had ever since we left the straits of sunda."
+-9.9333;104.5333;blue;thursday, 24th. first part light airs, the remainder calm.
+-10.2;104.6833;blue;"friday, 25th. light airs and calms; hot, sultry weather."
+-11.0;103.45;blue;"saturday, 26th. first part little wind, the remainder calm and very hot;
+set up the topmast rigging, and clear'd ship between decks, and wash her
+with vinegar."
+-11.95;102.25;blue;sunday, 27th. little wind, and sometimes calm.
+-12.8;102.9833;blue;"monday, 28th. moderate breezes, with some squalls, attended with showers
+of rain."
+-13.7;101.9167;blue;"tuesday, 29th. very variable weather; sometimes squally, with rain, other
+times little wind and calms."
+-14.7333;99.6667;blue;"wednesday, 30th. first and latter parts moderate breezes and cloudy
+weather; the middle squally, with rain, thunder, and lightning."
+-15.8;96.2667;blue;"thursday, 31st. first part moderate and fair, the remainder frequent
+squalls, attended with showers of rain."
+-16.6667;94.2667;blue;friday, february 1st. fresh gales, with flying showers of rain.
+-17.5;92.5333;blue;saturday, 2nd. a fresh trade, and mostly fair weather.
+-18.1;90.9;blue;sunday, 3rd. ditto weather.
+-18.5;88.4667;blue;"monday, 4th. a fresh trade and hazey weather, with some squalls, attended
+with small rain; unbent the main topsail to repair, and bent another."
+-18.9667;86.3333;blue;tuesday, 5th. a fresh trade wind, and hazey, cloudy weather.
+-19.4;84.6667;blue;wednesday, 6th. a fresh trade wind and fair weather.
+-20.4667;79.2;blue;thursday, 7th. gentle gales, with some showers in the night.
+-20.9667;77.3667;blue;"friday, 8th. winds as yesterday; clear weather in the day, and showrey in
+the night."
+-21.4167;76.7667;blue;sunday, 10th. fresh breezes and hazey weather.
+-21.85;74.25;blue;monday, 11th. winds and weather as yesterday.
+-22.35;72.05;blue;tuesday, 12th. gentle breezes and fair weather.
+-22.6667;70.25;blue;wednesday, 13th. weather as yesterday.
+-22.8667;68.3333;blue;thursday, 14th. moderate breezes and cloudy, with some showers of rain.
+-23.3333;65.1333;blue;friday, 15th. ditto weather.
+-23.95;63.7667;blue;saturday, 16th. a fresh trade and cloudy weather.
+-24.4333;60.0833;blue;sunday, 17th. fresh gales, with some showers of rain.
+-24.95;58.35;blue;monday, 18th. fair and pleasant weather.
+-25.35;56.65;blue;tuesday, 19th. ditto weather.
+-26.0833;54.9833;blue;wednesday, 20th. fresh gales and clear weather.
+-26.9833;51.1;blue;"thursday, 21st. first and middle parts fair weather; latter squally,
+attended with showers of rain."
+-27.75;49.1167;blue;friday, 22nd. fresh trade and fair weather.
+-29.1;45.4;blue;saturday, 23rd. ditto winds and weather.
+-29.5;43.4167;blue;sunday, 24th. gentle breezes and fair weather.
+-29.6167;41.0833;blue;tuesday, 26th. fresh gales.
+-29.6833;40.4333;blue;wednesday, 27th. ditto gales and cloudy.
+-30.35;39.7667;blue;"thursday, 28th. moderate breezes and fair weather until near 5 o'clock in
+the a.m., when a heavy squall from the south-west, attended with rain,
+took us all aback, and obliged us to put before the wind, the better to
+take in our sails; but before this could be done the foretopsail was
+split in several places."
+-31.0167;37.0333;blue;friday, march 1st. fresh gales and cloudy.
+-31.9;36.6;blue;"saturday, 2nd. first part fresh gales and cloudy; remainder little wind,
+with some few showers of rain; a sea from the south-west."
+-32.0;29.4833;blue;"sunday, 3rd. first part little wind; remainder gentle gales and clear
+weather, and the sea pretty smooth."
+-32.9;29.9333;blue;"monday, 4th. in the p.m. had a moderate breeze, which continued until 5
+o'clock in the a.m., when it fell calm, and soon after a breeze sprung up
+at south-west."
+-34.75;22.8;blue;"tuesday, 5th. fresh gales from the south-south-west, with squally, rainy
+weather, with which we stood to the westward."
+-34.8333;21.3833;blue;"thursday, 7th. cloudy, hazey weather; winds varying between the
+south-west by south and south-east by south; a light breeze at 1 p.m.
+tack'd, and stood to the westward, land at north, distant about 8
+leagues."
+-32.2333;16.1333;blue;"monday, 11th. first part light airs at west; the remainder had a fresh
+gale at south-east, with which we steer'd west and west-north-west, in
+order to make the land, which was seen from the deck at 10 a.m. at noon
+it extended from north-east to north-west, distant 5 leagues; the middle
+appear'd high and mountainous, and the two extremes low."
+-31.2333;15.3167;blue;"tuesday, 12th. in the p.m. had the wind at south-east and east, with
+which we steer'd along shore west and west-south-west."
+-31.2333;15.55;blue;"wednesday, 13th. in the p.m., having the wind at south, we steer'd along
+shore west by south 1/2 south until 3 o'clock, when, finding this course
+carried us off from the land, we steer'd west by north; at 6 o'clock cape
+laguillas, or the high land over it, bore east by north 12 leagues
+distance, and the westermost land in sight north-west 1/2 west."
+-29.6667;14.1667;blue;"wednesday, 17th. fresh breezes and fair weather, with a swell from the
+south-west."
+-28.7167;13.7;blue;thursday, 18th. gentle breezes and clear weather.
+-27.45;11.4;blue;friday, 19th. little wind and sometimes calm.
+-26.3167;10.7;blue;saturday, 20th. gentle breezes and clear weather.
+-25.1;9.2667;blue;sunday, 21st. a moderate trade wind and pleasant weather.
+-23.4667;9.8667;blue;monday, 22nd. a fresh trade, and pleasant weather.
+-21.6667;6.2;blue;tuesday, 23rd. gentle breezes, and clear weather.
+-20.0667;4.6667;blue;wednesday, 24th. ditto weather.
+-18.6833;2.9;blue;"thursday, 25th. first part, moderate and clear; middle, squally, with
+rain; latter, fresh gales and cloudy."
+-17.3167;-0.8333;blue;friday, 26th. fresh gales, and a large swell from the southward.
+-16.1833;-2.7;blue;saturday, 27th. fresh gales and cloudy.
+-15.0833;-6.7667;blue;sunday, 28th. ditto weather.
+-13.7;-8.45;blue;monday, 29th. ditto gales.
+-12.0833;-10.15;blue;tuesday, 30th. fresh gales and pleasant weather.
+-10.65;-11.7;blue;sunday, 5th. gentle breezes and clear weather.
+-9.2667;-13.2833;blue;monday, 6th. moderate breezes and cloudy weather.
+-7.9;-14.3;blue;tuesday, 7th. ditto weather.
+-6.4;-15.85;blue;wednesday, 8th. a steady breeze and pleasant weather.
+-4.6333;-16.9;blue;thursday, 9th. ditto weather.
+-2.9667;-17.9667;blue;"friday, 10th. at 6 in the a.m. saw the island of ascention bearing
+north-north-west, distant 7 leagues."
+-1.4333;-18.95;blue;friday, 11th. a steady trade wind and pleasant weather.
+-0.2333;-19.7167;blue;"saturday, 12th. first and middle parts a steady breeze, and fair the
+latter; light squalls, with rain."
+0.7833;-20.3333;blue;"sunday, 13th. gentle breezes and clear weather; hott and sultry."
+1.65;-20.8333;blue;monday, 14th. ditto weather.
+4.5333;-21.9667;blue;tuesday, 15th. little wind and hot, sultry weather.
+6.1333;-25.1333;blue;wednesday, 16th. light breezes and fair weather.
+6.9667;-25.6333;blue;thursday, 17th. ditto weather.
+7.8167;-26.0333;blue;sunday, 19th. cloudy, unsettled weather, with some rain.
+9.6833;-28.5;blue;tuesday, 21st. little wind, with some heavy showers of rain.
+20.7833;-29.5833;blue;wednesday, 22nd. variable, unsettled weather, with rain.
+12.1167;-30.6667;blue;"thursday, 23rd. little wind from the eastward, with frequent showers of
+rain, and hazey weather."
+13.5;-31.85;blue;saturday, 25th. moderate trade wind and cloudy weather.
+15.3167;-33.0333;blue;sunday, 26th. a steady trade and cloudy weather.
+17.0833;-34.15;blue;monday, 27th. a steady, fresh trade and cloudy weather.
+18.8333;-35.6667;blue;tuesday, 28th. a steady trade and fair weather.
+20.2;-36.6833;blue;wednesday, 29th. fresh gales and hazey.
+21.3333;-38.0833;blue;thursday, 30th. ditto gales and cloudy.
+22.35;-39.15;blue;friday, 31st. strong gales and cloudy in the evening.
+23.6667;-40.0667;blue;saturday, june 1st. fresh trade, and cloudy weather.
+24.5167;-41.1833;blue;sunday, 2nd. moderate gales and clear weather.
+27.3667;-43.7;blue;monday, 3rd. a gentle trade wind, and pleasant weather.
+28.8333;-43.7;blue;tuesday, 4th. ditto weather.
+30.1833;-44.15;blue;wednesday, 5th. gentle breezes, with some showers of small rain.
+31.2;-44.8333;blue;friday, 7th. moderate breezes, and cloudy.
+32.2667;-45.2333;blue;saturday, 8th. moderate breezes and pleasant weather.
+33.1333;-44.8833;blue;sunday, 9th. clear, pleasant weather and a smooth sea.
+34.2333;-44.4167;blue;monday, 10th. little wind and clear weather.
+35.8;-43.8;blue;tuesday, 11th. ditto weather.
+37.0333;-41.9;blue;wednesday, 12th. light breezes and clear weather.
+38.3;-40.6333;blue;thursday, 13th. little wind and pleasant weather.
+38.95;-38.6;blue;friday, 14th. a gentle gale, and pleasant weather.
+39.8667;-36.9833;blue;saturday, 15th. ditto weather at daylight.
+40.15;-36.7333;blue;"sunday, 16th. a steady breeze and pleasant weather, with some rain in the
+night."
+40.4833;-33.1667;blue;monday, 17th. steady, gentle gales and pleasant weather.
+40.55;-30.3333;blue;tuesday, 18th. little wind, and clear weather.
+41.1833;-27.8667;blue;wednesday, 19th. fresh gales and cloudy.
+40.7167;-26.2167;blue;thursday, 20th. fresh gales and cloudy, with some showers of rain.
+40.5667;-24.8167;blue;friday, 21st. fresh gales and cloudy.
+40.65;-23.55;blue;saturday, 22nd. fresh gales, with squalls, attended with rain.
+40.7167;-21.9667;blue;sunday, 23rd. fresh gales and squally, attended with showers of rain.
+41.2333;-20.9833;blue;"monday, 24th. first part, moderate breezes; remainder, squally."
+42.9167;-19.3;blue;tuesday, 25th. first part and remainder a fresh breeze and cloudy.
+43.65;-17.6;blue;"wednesday, 26th. first part, breezes; remainder, little wind."
+44.5667;-16.0333;blue;thursday, 27th. moderate breezes and cloudy weather.
+44.9;-13.9833;blue;friday, 28th. fresh breezes, with showers of rain.
+45.9;-13.0333;blue;"saturday, 29th. first part, little wind; remainder, fresh gales and
+squally, with showers of rain."
+45.4;-11.9833;blue;sunday, 30th. gentle breezes and fair weather.
+45.4833;-10.7333;blue;monday, july 1st. ditto weather.
+45.5667;-10.5333;blue;tuesday, 2nd. little wind and cloudy, hazey weather.
+44.75;-9.7;blue;wednesday, 3rd. little wind and pleasant weather.
+46.2667;-9.65;blue;thursday, 4th. gentle breezes and cloudy weather.
+46.75;-8.9;blue;friday, 5th. little wind and cloudy.
+48.3167;-8.0167;blue;saturday, 6th. gentle breezes and cloudy.
+49.4833;-6.3;blue;sunday, 7th. gentle breezes and clear weather.
