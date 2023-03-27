@@ -86,6 +86,8 @@ for index,paragraph in zip(indices,paragraphs):
         gps_text = splitted_paragraph[index-1:index + args.lookahead + 3]
         # check if lattiude and longtiude occur to get only valid gps data
         if "latitude" in gps_text and "longitude" in gps_text:
+            print(gps_text)
+            print("#"*20)
             lat_list = []
             long_list = []
             lat_result = []
